@@ -1,4 +1,39 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h1>Home</h1>
+    <section class="page-section clearfix">
+        <div class="container">
+          <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ url_for('static', filename='img/intro.jpg') }}" alt="posh coffee pic">
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Coffee</span>
+                <span class="section-heading-lower">Worth Drinking Really</span>
+              </h2>
+              <p class="mb-3">Every cup of coffee starts my brain make go. The go faster bean juice is essential for me make smart code things.
+              </p>
+              <div class="intro-button mx-auto">
+                <a class="btn btn-primary btn-xl" href="https://mattmarcdev.com" target="_blank">Drink!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section cta">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 mx-auto">
+              <div class="cta-inner text-center rounded">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Our Promise</span>
+                  <span class="section-heading-lower">To You</span>
+                </h2>
+                <p class="mb-0">A lot is said about coffee. Some good and some bad, but I think we can all agree that these things have indeed been said. To claim that no one has talked aboout coffee ever would be quite
+                    frankly, ridiculous. The mere fact that I have to tell you anything about coffee speaks volumes on your many shortcomings and should be considered a wakeup call to what you're doing with your life.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 {% endblock %}
