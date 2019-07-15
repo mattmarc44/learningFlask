@@ -2,11 +2,13 @@
     {
         "name": "Americano",
         "description": "A shot of espresso diluted with hot water to taste similar to traditionally brewed coffee.",
-        "image_source": "https://www.coffeerentals.com/files/2016/03/americano.jpg"
+        "image_source": "https://www.coffeerentals.com/files/2016/03/americano.jpg",
+        "url": "americano"
     },
     {
         "name": "Cappuccino",
         "description": "A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, and flavoring with cinnamon or chocolate powder",
-        "image_source": "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-facebookJumbo.jpg"
+        "image_source": "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-facebookJumbo.jpg",
+        "url": "cappuccino"
     }
 ]
